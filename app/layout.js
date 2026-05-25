@@ -1,6 +1,6 @@
 export const metadata = {
   title: "Shriram Contact Center",
-  description: "Financial Services Website",
+  description: "Financial Services Website"
 };
 
 export default function RootLayout({ children }) {
