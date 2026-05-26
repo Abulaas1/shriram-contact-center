@@ -165,11 +165,79 @@ export default function Home() {
               border:"2px solid #facc15"
             }}>
               <h3 style={{fontSize:"24px"}}>{service}</h3>
+                  <p style={{
+  marginTop:"10px",
+  color:"#ddd",
+  fontSize:"15px",
+  lineHeight:"24px"
+}}>
+Professional assistance and customer support for {service.toLowerCase()} services.
+</p>      
             </div>
           ))}
         </div>
       </section>
+<section style={{
+  background:"#facc15",
+  color:"#000",
+  padding:"80px 20px",
+  textAlign:"center"
+}}>
 
+<h2 style={{
+  fontSize:"50px",
+  marginBottom:"50px",
+  fontWeight:"bold"
+}}>
+Why Choose Us
+</h2>
+
+<div style={{
+  display:"grid",
+  gridTemplateColumns:"repeat(auto-fit,minmax(250px,1fr))",
+  gap:"30px",
+  maxWidth:"1200px",
+  margin:"auto"
+}}>
+
+<div style={{
+  background:"#000",
+  color:"#fff",
+  padding:"30px",
+  borderRadius:"20px"
+}}>
+<h3 style={{color:"#facc15"}}>Trusted Services</h3>
+<p>
+We provide reliable and trusted customer support with professional assistance.
+</p>
+</div>
+
+<div style={{
+  background:"#000",
+  color:"#fff",
+  padding:"30px",
+  borderRadius:"20px"
+}}>
+<h3 style={{color:"#facc15"}}>Experienced Team</h3>
+<p>
+Our experienced staff helps customers with smooth and fast processing.
+</p>
+</div>
+
+<div style={{
+  background:"#000",
+  color:"#fff",
+  padding:"30px",
+  borderRadius:"20px"
+}}>
+<h3 style={{color:"#facc15"}}>Customer Satisfaction</h3>
+<p>
+We focus on customer support and complete assistance for every service.
+</p>
+</div>
+
+</div>
+</section>
       <section style={{
         background:"#000",
         padding:"80px 20px"
