@@ -1,5 +1,6 @@
 
 export default function Home() {
+  const logo = "/logo.png";
   const services = [
     "Fund Management",
     "Financial Advisory",
@@ -52,9 +53,21 @@ export default function Home() {
         alignItems:"center",
         padding:"20px 40px"
       }}>
-        <h1 style={{fontSize:"40px",fontWeight:"bold"}}>
-          Shriram Contact Center
-        </h1>
+        <div style={{display:"flex",alignItems:"center",gap:"15px"}}>
+  <img
+    src="/logo.png"
+    alt="Logo"
+    style={{
+      width:"55px",
+      height:"55px",
+      objectFit:"contain"
+    }}
+  />
+
+  <h1 style={{fontSize:"40px",fontWeight:"bold"}}>
+    Shriram Contact Center
+  </h1>
+</div>
 
         <a
           href="mailto:customersupport@shriramcontactcenter.co.in"
