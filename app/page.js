@@ -1,4 +1,4 @@
-
+"use client";
 export default function Home() {
   const logo = "/logo.png";
   const services = [
@@ -52,9 +52,26 @@ export default function Home() {
   margin:"0",
   boxSizing:"border-box",
   overflowX:"hidden"
-}}>
+  }}>
 
-      <section style={{
+  <div style={{
+    width:"100%",
+    background:"#fff",
+    overflow:"hidden"
+  }}>
+    <img
+      src="/celebration.png"
+      alt="Shriram 50 Years Celebration"
+      style={{
+        width:"100%",
+        height:"auto",
+        display:"block",
+        objectFit:"contain"
+      }}
+    />
+  </div>
+
+  <section style={{
         background:"#facc15",
         color:"black",
         display:"flex",
