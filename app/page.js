@@ -89,7 +89,7 @@ export default function Home() {
         padding:"100px 20px"
       }}>
         <h2 style={{
-          fontSize:"70px",
+          fontSize:"clamp(40px,8vw,70px)",
           color:"white",
           marginBottom:"20px"
         }}>
@@ -106,7 +106,14 @@ export default function Home() {
           financial management, tax planning, and loan facilities with trusted customer assistance.
         </p>
 
-        <div style={{marginTop:"40px"}}>
+ <div style={{
+  marginTop:"40px",
+  display:"flex",
+  justifyContent:"center",
+  alignItems:"center",
+  gap:"15px",
+  flexWrap:"wrap"
+}}>
           <a
             href="mailto:customersupport@shriramcontactcenter.co.in"
             style={{
@@ -116,7 +123,6 @@ export default function Home() {
               textDecoration:"none",
               borderRadius:"14px",
               fontWeight:"bold",
-              marginRight:"20px"
             }}
           >
             Explore Services
@@ -145,7 +151,7 @@ export default function Home() {
       }}>
         <h2 style={{
           textAlign:"center",
-          fontSize:"55px",
+          fontSize:"clamp(38px,7vw,55px)",
           color:"#ca8a04",
           marginBottom:"50px"
         }}>
@@ -167,7 +173,7 @@ export default function Home() {
               <h3 style={{fontSize:"24px"}}>{service}</h3>
                   <p style={{
   marginTop:"10px",
-  color:"#ddd",
+  color:"#555",
   fontSize:"15px",
   lineHeight:"24px"
 }}>
@@ -194,7 +200,7 @@ Why Choose Us
 
 <div style={{
   display:"grid",
-  gridTemplateColumns:"repeat(auto-fit,minmax(250px,1fr))",
+  gridTemplateColumns:"repeat(auto-fit,minmax(min(250px,100%),1fr))",
   gap:"30px",
   maxWidth:"1200px",
   margin:"auto"
