@@ -61,7 +61,7 @@ export default function Home() {
         justifyContent:"space-between",
         alignItems:"center",
         flexWrap:"wrap",
-        gap:"15px"
+        gap:"15px",
         padding:"20px"
       }}>
         <div style={{display:"flex",alignItems:"center",gap:"15px"}}>
