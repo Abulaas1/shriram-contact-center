@@ -43,7 +43,16 @@ export default function Home() {
   ];
 
   return (
-    <main style={{background:"#000",color:"white",fontFamily:"Arial",minHeight:"100vh"}}>
+    <main style={{
+  background:"#000",
+  color:"white",
+  fontFamily:"Arial",
+  minHeight:"100vh",
+  width:"100%",
+  margin:"0",
+  boxSizing:"border-box",
+  overflowX:"hidden"
+}}>
 
       <section style={{
         background:"#facc15",
@@ -324,9 +333,14 @@ We focus on customer support and complete assistance for every service.
           Contact Information
         </h2>
 
-        <p style={{fontSize:"22px"}}>
-          customersupport@shriramcontactcenter.co.in
-        </p>
+        <p style={{
+  fontSize:"clamp(16px,4vw,22px)",
+  overflowWrap:"anywhere",
+  wordBreak:"break-word",
+  margin:"20px 0"
+}}>
+  customersupport@shriramcontactcenter.co.in
+</p>
 
         <p style={{fontSize:"20px",color:"#ccc"}}>
           Gachibowli, Hyderabad - 500032
