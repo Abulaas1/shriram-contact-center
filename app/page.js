@@ -51,7 +51,9 @@ export default function Home() {
         display:"flex",
         justifyContent:"space-between",
         alignItems:"center",
-        padding:"20px 40px"
+        flexWrap:"wrap",
+        gap:"15px"
+        padding:"20px"
       }}>
         <div style={{display:"flex",alignItems:"center",gap:"15px"}}>
   <img
@@ -64,7 +66,11 @@ export default function Home() {
     }}
   />
 
-  <h1 style={{fontSize:"40px",fontWeight:"bold"}}>
+  <h1 style={{
+  fontSize:"clamp(24px,6vw,40px)",
+  fontWeight:"bold",
+  margin:"0"
+}}>
     Shriram Contact Center
   </h1>
 </div>
@@ -98,7 +104,7 @@ export default function Home() {
 
         <p style={{
           color:"#ddd",
-          fontSize:"22px",
+          fontSize:"clamp(16px,4vw,22px)",
           maxWidth:"1000px",
           margin:"auto"
         }}>
@@ -160,7 +166,7 @@ export default function Home() {
 
         <div style={{
           display:"grid",
-          gridTemplateColumns:"repeat(auto-fit,minmax(250px,1fr))",
+          gridTemplateColumns:"repeat(auto-fit,minmax(min(250px,100%),1fr))",
           gap:"20px"
         }}>
           {services.map((service,index)=>(
@@ -250,7 +256,7 @@ We focus on customer support and complete assistance for every service.
       }}>
         <h2 style={{
           textAlign:"center",
-          fontSize:"55px",
+          fontSize:"clamp(38px,7vw,55px)",
           color:"#facc15",
           marginBottom:"50px"
         }}>
@@ -259,7 +265,7 @@ We focus on customer support and complete assistance for every service.
 
         <div style={{
           display:"grid",
-          gridTemplateColumns:"repeat(auto-fit,minmax(250px,1fr))",
+          gridTemplateColumns:"repeat(auto-fit,minmax(min(250px,100%),1fr))",
           gap:"20px"
         }}>
           {packages.map((pkg,index)=>(
@@ -289,9 +295,9 @@ We focus on customer support and complete assistance for every service.
         textAlign:"center",
         padding:"60px 20px"
       }}>
-        <h2 style={{fontSize:"45px"}}>
-          Important Notice
-        </h2>
+       <h2 style={{fontSize:"clamp(32px,7vw,45px)"}}>
+        Important Notice
+      </h2>
 
         <p style={{
           maxWidth:"1000px",
@@ -311,7 +317,10 @@ We focus on customer support and complete assistance for every service.
         textAlign:"center",
         padding:"70px 20px"
       }}>
-        <h2 style={{fontSize:"50px",color:"#facc15"}}>
+        <h2 style={{
+          fontSize:"clamp(35px,7vw,50px)",
+          color:"#facc15"
+        }}>
           Contact Information
         </h2>
 
