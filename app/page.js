@@ -60,7 +60,7 @@ export default function Home() {
     overflow:"hidden"
   }}>
     <img
-      src="/celebration.png"
+      src="/Celebration-50.png"
       alt="Shriram 50 Years Celebration"
       style={{
         width:"100%",
