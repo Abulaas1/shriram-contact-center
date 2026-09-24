@@ -82,16 +82,7 @@ export default function Home() {
         padding:"20px"
       }}>
         <div style={{display:"flex",alignItems:"center",gap:"15px"}}>
-  <img
-    src="/logo.png"
-    alt="Logo"
-    style={{
-      width:"55px",
-      height:"55px",
-      objectFit:"contain"
-    }}
-  />
-
+  
   <h1 style={{
   fontSize:"clamp(24px,6vw,40px)",
   fontWeight:"bold",
