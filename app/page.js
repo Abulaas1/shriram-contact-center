@@ -58,26 +58,6 @@ export default function Home() {
       }}
     >
 
-      {/* 50 YEARS BANNER */}
-      <div
-        style={{
-          width: "100%",
-          background: "#FFFFFF",
-          overflow: "hidden"
-        }}
-      >
-        <img
-          src="/Celebration-50.png"
-          alt="Shriram 50 Years Celebration"
-          style={{
-            width: "100%",
-            height: "auto",
-            display: "block",
-            objectFit: "contain"
-          }}
-        />
-      </div>
-
       {/* HEADER */}
       <section
         style={{
